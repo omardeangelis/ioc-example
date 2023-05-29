@@ -1,5 +1,6 @@
 import { Filter } from "./filter";
-import { ModalExample } from "./modal";
+// import { ModalExample } from "./modal";
+import { IcCModal } from "./modal/ioc";
 
 type ExampleConfig = "filter" | "modal";
 
@@ -10,7 +11,8 @@ export const Example: React.FC<{ config: ExampleConfig }> = ({ config }) => {
     case "modal":
       return (
         <>
-          <ModalExample />
+          {/* <ModalExample /> */}
+          <IcCModal />
         </>
       );
     default:
