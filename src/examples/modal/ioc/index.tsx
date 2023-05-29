@@ -10,7 +10,7 @@ import {
   ModalTitle,
 } from "./components";
 
-export const IcCModal = () => {
+export const IoCModal = () => {
   const [showModal, setShowModal] = React.useState(true);
   const onClose = React.useCallback(() => setShowModal(false), []);
   const onBack = React.useCallback(() => setShowModal(false), []);

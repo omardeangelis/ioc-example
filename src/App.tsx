@@ -5,7 +5,7 @@ import { Example } from "./examples";
 function App() {
   return (
     <>
-      <Example config="modal" />
+      <Example config="filter" />
     </>
   );
 }

@@ -14,7 +14,7 @@
 export const filterTruthyElement = <T>(
   data: T[],
   {
-    fitletNull = true,
+    fitlerNull = true,
     filterUndefined = true,
     filterEmptyString = false,
     filterZero = false,
@@ -24,7 +24,7 @@ export const filterTruthyElement = <T>(
   for (let i = 0; i < data.length; i++) {
     const element = data[i];
     if (
-      (fitletNull && element === null) ||
+      (fitlerNull && element === null) ||
       (filterUndefined && element === undefined) ||
       (filterEmptyString && element === "") ||
       (filterZero && element === 0)
